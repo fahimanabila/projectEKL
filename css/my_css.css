@@ -1,0 +1,148 @@
+/* CSS Document */
+
+/* programmed by: yeremia avandani */
+/* sorkgroup: spider-system */
+/* www.pascaricci.com */
+/* -------------------------------------------------------------------------------*/
+
+body {
+    background-color: #FFFFFF;		background-repeat: REPEAT;
+	font-family: 'Arial';			font-size: 12px;
+	font-weight: bold;	
+	/*cursor:url("mycursor.cur"); */			
+	margin-top: 0;					margin-left: 0;
+	margin-right: 0;				margin-bottom: 0;}
+
+td {
+	font-family: 'Arial';			font-size: 12px;}
+
+td#calbig {
+	font-family: 'Arial'; 			font-size: 14px;}
+
+table {
+	margin-top: 0;					margin-left: 0;
+	margin-right: 0;				margin-bottom: 0;}
+
+input#text {	
+	background-color: #FFFFFF;		color: #666666;		
+	font-size: 12px;				font-family: 'Arial';
+	border: 1px ridge #666666;		display: marker;}
+	
+input#transparant {	
+	background-color: #FFFFFF;		color: #000000;		
+	font-size: 12px;				font-family: 'Arial';
+	border: 0px ridge #FFFFFF;		display: marker;}
+
+input.transparant {	
+	background-color: #FFFFFF;		color: #000000;		
+	font-size: 12px;				font-family: 'Arial';
+	border: 0px ridge #FFFFFF;		display: marker;}
+	
+input#button {
+	border: 0px ridge #FFFFFF;	 	color: #666666;
+	font-size: 12px;				cursor: hand;
+	text-align: center;}
+	
+input#radio {	
+	font-size: 12px;				border: 0px ridge #FFFFFF;}
+	
+textarea {
+	background-color:#FFFFFF;		font-size: 12px;
+	font-family: 'Arial';			color: #000000;
+	border: 1px ridge #CFCBD1;		display: marker;}
+	
+select {
+	background-color:#FFFFFF;		font-size: 12px;
+	font-family: 'Arial';			color: #000000;
+	border: 1px ridge #CFCBD1;		display: marker;
+	border-left: 1px ridge #CFCBD1;	border-right: 1px ridge #CFCBD1;
+	border-top: 1px ridge #CFCBD1;	border-bottom: 1px ridge #CFCBD1;}
+
+/* class untuk form isi */
+.fontstandar {
+	color: #716676;
+	font-family: 'Arial';			font-size: 12px;}		
+/* ----- */
+	
+/* class untuk form login */
+.login	{
+	font-family: 'Arial';			font-size: 12px;}		
+/* ----- */
+
+a:link 
+	{color: #AB0000; font-family: 'Arial'; font-size: 12px; font-weight : 500;
+	text-decoration: none;}	
+a:visited 
+	{color: #AB0000; font-family: 'Arial'; font-size: 12px; font-weight : 500;
+	text-decoration: none;}
+	}
+a:hover
+	{color: #DB892F; font-family: 'Arial'; font-size: 12px; font-weight : 500;
+	text-decoration: none;}
+
+/* class link untuk message */
+.msg:link
+	{color: #AB0000; font-family: 'Arial'; font-size: 12px; font-weight : bold;
+	text-decoration: none;}
+	
+.msg:visited
+	{color: #AB0000; font-family: 'Arial'; font-size: 12px; font-weight : bold;
+	text-decoration: none;}
+	
+.msg:hover
+	{color: #DB892F; font-family: 'Arial'; font-size: 12px; font-weight : bold;
+	text-decoration: none;}
+/* ----- */
+
+/* class link untuk message */
+.pda:link
+	{color: #000000; font-family: 'Arial'; font-size: 12px; font-weight : bold;
+	text-decoration: none;}
+	
+.pda:visited
+	{color: #000000; font-family: 'Arial'; font-size: 12px; font-weight : bold;
+	text-decoration: none;}
+	
+.pda:hover
+	{color: #AB0000; font-family: 'Arial'; font-size: 12px; font-weight : bold;
+	text-decoration: none;}
+
+.pda_table {
+	text-valign: top;				border-bottom: #FFFFFF 3px solid;
+	border-color:#FFFFFF;			border-left: #FFFFFF 3px solid;
+	border-top: #FFFFFF 3px solid;	border-right: #FFFFFF 3px solid;}
+/* ----- */
+	
+/* class link untuk news list */
+.msgnews:link
+	{color: #AB0000; font-family: 'Arial'; font-size: 12px;
+	text-decoration: none;}
+	
+.msgnews:visited
+	{color: #AB0000; font-family: 'Arial'; font-size: 12px;
+	text-decoration: none;}
+	
+.msgnews:hover
+	{color: #DB892F; font-family: 'Arial'; font-size: 12px; font-weight : bold;
+	text-decoration: none;}
+/* ----- */
+
+/* class untuk border table */
+.tdtop {
+	text-valign: top;				border-right: #999999 1px solid;
+	border-color:#999999; 			border-top: #999999 1px solid;}
+	
+.tdbottom {
+	text-valign: top;				border-bottom: #999999 1px solid;
+	border-color:#999999;			border-left: #999999 1px solid;}
+/* ----- */
+	
+/* class untuk border table untuk hasil print */
+.tdtop_prev {
+	text-valign: top;				border-right: #000000 1px solid;
+	border-color:#000000; 			border-top: #000000 1px solid;}
+	
+.tdbottom_prev {
+	text-valign: top;				border-bottom: #000000 1px solid;
+	border-color:#000000;			border-left: #000000 1px solid;}
+/* ----- */
